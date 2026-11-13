@@ -1,0 +1,12 @@
+Source: ros-extendablelyrical-ros-gz-bridge
+Section: misc
+Priority: optional
+Maintainer: "Aditya Pande" <adityapande@intrinsic.ai>
+Build-Depends: debhelper (>= 9.0.0), pkg-config, ros-extendablejetty-gz-msgs, ros-extendablejetty-gz-transport, ros-extendablelyrical-ros-gz-interfaces, ros-lyrical-actuator-msgs, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-cmake-python, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-builtin-interfaces, ros-lyrical-geometry-msgs, ros-lyrical-gps-msgs, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-launch-ros <!nocheck>, ros-lyrical-launch-testing <!nocheck>, ros-lyrical-launch-testing-ament-cmake <!nocheck>, ros-lyrical-marine-acoustic-msgs, ros-lyrical-nav-msgs, ros-lyrical-rcl-interfaces, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rosgraph-msgs, ros-lyrical-rosidl-pycommon, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-tf2-msgs, ros-lyrical-trajectory-msgs, ros-lyrical-vision-msgs, ros-lyrical-yaml-cpp-vendor, ros-extendablelyrical-ros-workspace
+Homepage: https://index.ros.org/p/ros_gz_bridge/#extendablelyrical
+Standards-Version: 3.9.2
+
+Package: ros-extendablelyrical-ros-gz-bridge
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-extendablejetty-gz-msgs, ros-extendablejetty-gz-transport, ros-extendablelyrical-ros-gz-interfaces, ros-lyrical-actuator-msgs, ros-lyrical-builtin-interfaces, ros-lyrical-geometry-msgs, ros-lyrical-gps-msgs, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-marine-acoustic-msgs, ros-lyrical-nav-msgs, ros-lyrical-rcl-interfaces, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rosgraph-msgs, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-tf2-msgs, ros-lyrical-trajectory-msgs, ros-lyrical-vision-msgs, ros-lyrical-yaml-cpp-vendor, ros-extendablelyrical-ros-workspace
+Description: Bridge communication between ROS and Gazebo Transport
